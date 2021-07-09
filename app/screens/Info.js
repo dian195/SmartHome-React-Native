@@ -472,26 +472,7 @@ class Info extends Component {
         }
     }
 
-    renderDropDownlist() {
-        if (this.state.dataBerdasarkan == '1')
-        {
-          return (
-            <Button title="Tampilkan" color="#841584" accessibilityLabel="Tampilkan" onPress={() => this.onPressBTNModal1(true)} />
-          );
-        }
-        else if (this.state.dataBerdasarkan == '2')
-        {
-          return (
-            <Button title="Tampilkan" color="#841584" accessibilityLabel="Tampilkan" onPress={() => this.onPressBTNModal2(true)} />
-          );
-        }
-        else
-        {
-            return(
-            <Button title="Tampilkan" color="#841584" accessibilityLabel="Tampilkan" />
-            )
-        }
-    }
+    
 }
 
 export default Info;
